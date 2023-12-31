@@ -1,0 +1,172 @@
+
+.Header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 20px;
+    color: white;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    z-index: 999;
+}
+.Header .Logo{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+.Header .Logo span{
+    font-size: 30px;
+}
+.Header .Links {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.Header .Links .Menu{
+    padding: 0px 0px;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    gap: 2px;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.Header .Links .Menu .Scon{
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    transition: all .3s;
+}
+.Header .Links .Menu .Scon2{
+    width: 20px;
+    margin-left: 9px;
+}
+.Header .Links .Menu .Scon3{
+    width:10px;
+   margin-left: 19px;
+
+}
+.Header .Links .MenuAddClass1{
+    background-color: red;
+}
+.Header .MeluList{
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 100px;
+    background-color: #111;
+    top: 0px;
+    right:-490px;
+    z-index: -99;
+    transition: all .3s;
+
+}
+.Header .TogglMeluList{
+    right: 0px;
+}
+.Header .MeluList li{
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 13px 0px;
+    font-size: 14px;
+}
+
+#Home{
+    background-color:#000;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0px 100px;
+    color: white;
+    gap: 10px;
+
+}
+#Home .Right {
+    width: 55%;
+}
+#Home .Left {
+    width: 45%;
+}
+#Home .Right h1{
+    font-size: 140px;
+    letter-spacing: 6px;
+}
+#Home .Right span{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: -30px;
+    padding-left: 9px;
+}
+#Home .ScrollNtf{
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    transform: rotate(90deg);
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#About{
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(90deg, #000 60%, #070707 60%, #070707 80%, #000 80%);
+}
+#About h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: right;
+}
+#About .Border{
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    border-radius: 3px;
+}
+#About .Text{
+    width: 500px;
+}
+#About .Text h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#About .Text p{
+    margin-top: 20px;
+}
+
+#About .Text .FormMe{
+    margin-top: 20px;
+}
+#About .Text .FormMe .Cnt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 6px;
+}
+#About .Text .FormMe .Cnt h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

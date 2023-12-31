@@ -1,0 +1,80 @@
+@media screen and (max-width: 1000px) {
+    #Home .Right h1{
+        font-size: 90px;
+        letter-spacing: 4px;
+    }
+    #Home .Right span{
+        padding-left: 6px;
+    }
+    /* close  */
+  }
+  /* query for tab mood  */
+@media screen and (max-width: 700px) {
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 20px;
+    }
+
+
+    .Header{
+        padding: 0px 30px;
+    }
+    .Header .MeluList{
+        width: 400px;
+    }
+    #Home .Right {
+        width: 100%;
+        margin-top: -100px;
+        text-align: center;
+    }
+    #Home .Left {
+        width: 80%;
+    }
+    #Home .Right h1{
+        font-size: 80px;
+        letter-spacing: 4px;
+    }
+    #Home .Right span{
+        padding: 0px;
+    }
+    #Home {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 30px;
+    }
+
+    #Home .ScrollNtf{
+        margin-top: 40px;
+        font-size: 10px;
+    }
+    .Section{
+        padding: 0px 30px;
+    }
+    #About{
+        flex-direction: column;
+        text-align: center;
+    }
+    #About h2{
+        text-align: center;
+    }
+    #About .Text{
+        text-align: center;
+        width: 100%;
+    }
+    #About .Text .FormMe .Cnt{
+        justify-content: center;
+    }
+
+
+    /* clossing  */
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    .Header .MeluList{
+        width: 100%;
+    
+    }
+  }
