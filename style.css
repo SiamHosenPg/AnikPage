@@ -272,7 +272,7 @@
     margin-top: -10px;
 }
 .Parfomens .Right  .Conten{
-    background-color: #070707;
+    background-color: #111;
     width: 100%;
     height: 240px;
     margin-top: 20px;
@@ -284,7 +284,7 @@
     transition: all .3s;
 }
 .Parfomens .Right  .Conten:hover{
-    background-color: #111;
+    background-color: #222;
 
 }
 #Resume{
@@ -317,13 +317,13 @@
     background-color: white;
 }
 #Resume .Content .Cnt{
-    background-color: #070707;
+    background-color: #111;
     padding: 35px 30px ;
     margin-top: 25px;
     transition: all .3s;
 }
 #Resume .Content .Cnt:hover{
-    background-color: #111;
+    background-color: #222;
 }
 #Resume .Content .Cnt h4{
     text-transform: uppercase;
@@ -448,7 +448,7 @@
     padding: 18px 20px;
     font-size: 16px;
     font-weight: 600px;
-    background-color: #070707;
+    background-color: #111;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
