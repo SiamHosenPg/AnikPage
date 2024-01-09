@@ -6,21 +6,15 @@
     box-sizing: border-box;
     outline: none;
     color: inherit;
-    
-}
-
-
-html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
 }
 body{
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    
-
+    font-size: 14px; 
+    background-color: #000;
 }
-input,button{
+input,button, textarea{
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -30,6 +24,9 @@ img{
     height: auto;
     display: block;
 }
+p{
+    line-height: 24px;
+}
 a{
     text-decoration: none;
 }
@@ -38,7 +35,6 @@ li{
 }
 button{
     display: block;
-    
 }
 h1, h2, h3, h4, h5, h6,b{
     padding: 0;

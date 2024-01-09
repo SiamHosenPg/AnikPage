@@ -1,4 +1,14 @@
 
+.Cursor{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    display: none;
+}
+
+
 .Header{
     width: 100%;
     height: 60px;
@@ -41,6 +51,18 @@
     flex-direction: column;
     margin-left: 30px;
 }
+.Header .Links .Menu:hover .Scon2{
+    width: 20px;
+    margin-left: 0px;
+}
+.Header .Links .Menu:hover .Scon3{
+    width: 15px;
+    margin-left: 0px;
+}
+.Header .Links .Menu:hover .Scon1{
+    width: 15px;
+    margin-left: 0px;
+}
 .Header .Links .Menu .Scon{
     width: 30px;
     height: 3px;
@@ -50,11 +72,11 @@
 }
 .Header .Links .Menu .Scon2{
     width: 20px;
-    margin-left: 9px;
+    margin-left: 10px;
 }
 .Header .Links .Menu .Scon3{
     width:10px;
-   margin-left: 19px;
+   margin-left: 20px;
 
 }
 .Header .Links .MenuAddClass1{
@@ -169,4 +191,286 @@
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.Parfomens{
+    justify-content: center;
+    background: linear-gradient(90deg, #000 20%, #070707 20%, #070707 40%, #000 40%);
+    gap: 30px;
+}
+.Parfomens .Left{
+    width: 40%;
+}
+.Parfomens .Right{
+    width: 40%;
+}
+.Parfomens .Left h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.Parfomens .Left .Area{
+    margin-top: 16px;
+}
+.Parfomens .Left .Area .Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+.Parfomens .Left .Area .Top h4{
+    font-weight: 600;
+}
+.Parfomens .Left .Area .Progres{
+    width: 100%;
+    background-color: #222;
+    height: 5px;
+    margin-top: 6px;
+    
+}
+.Parfomens .Left .Area .Progres .size{
+    width: 70%;
+    background-color: #ececec;
+    height: 5px;
+}
+.Parfomens .Left .Area .Progres .HtmlSz{
+    width: 86%;
+}
+.Parfomens .Left .Area .Progres .CssSz{
+    width: 92%;
+}
+.Parfomens .Left .Area .Progres .JsSz{
+    width: 83%;
+}
+.Parfomens .Left .Area .Progres .WdSz{
+    width: 68%;
+}
+.Parfomens .Left .Other{
+    margin-top: 32px;
+}
+.Parfomens .Left .Other span{
+    display: block;
+    float: left;
+    background-color: #111;
+    border-radius: 100px;
+    padding: 6px 14px;
+    margin-right: 4px;
+}
+.Parfomens .Right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.Parfomens .Right .Lft {
+    width: 50%;
+    margin-top: 10px;
+}
+.Parfomens .Right .Rit {
+    width: 50%;
+    margin-top: -10px;
+}
+.Parfomens .Right  .Conten{
+    background-color: #070707;
+    width: 100%;
+    height: 240px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all .3s;
+}
+.Parfomens .Right  .Conten:hover{
+    background-color: #111;
+
+}
+#Resume{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    height: max-content !important;
+
+}
+#Resume h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 80px;
+}
+#Resume .Content{
+    display: flex;
+    height:  max-content;
+    justify-content: center;
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 15px;
+
+}
+#Resume .Content .Center{
+    width: 2px;
+    height: 340px;
+    background-color: white;
+}
+#Resume .Content .Cnt{
+    background-color: #070707;
+    padding: 35px 30px ;
+    margin-top: 25px;
+    transition: all .3s;
+}
+#Resume .Content .Cnt:hover{
+    background-color: #111;
+}
+#Resume .Content .Cnt h4{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    
+}
+#Resume .Content .Cnt p{
+    margin-top: 10px;
+
+}
+#Resume .Content .Cnt .Place{
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+#Resume .Content .Cnt .date{
+    font-weight: 300;
+    font-size: 14px;
+
+}
+#Portfolio{
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    height: max-content !important;
+}
+#Portfolio h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 500px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+#Portfolio .Pf_area{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: top;
+
+
+}
+#Portfolio .Pf_area .Pf_cont_ar{
+    width: 33%;
+}
+#Portfolio .Pf_cont_ar .Image{
+    margin-top: 15px;
+    background-color: rgb(153, 153, 153);
+    transition: all .3s;
+    border: 1px solid #000;
+}
+#Portfolio .Pf_cont_ar .Image:hover{
+    border: 1px solid #cccccc;
+}
+#Portfolio .Pf_cont_ar .Image img{
+    box-shadow: 2px 4px 12px #111;
+    display: block;
+}
+
+#Portfolio .Pf_FullSc{
+
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: 100vh;
+    z-index: 99999;
+    background-color: green;
+    top: 0;
+}
+
+#Contact{
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#Contact .Cnt_left{
+    width: 40%;
+}
+#Contact .Cnt_right{
+    width: 40%;
+}
+#Contact .Cnt_left h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#Contact .Cnt_left form{
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+}
+#Contact .Cnt_left form input{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 10px;
+    padding-left: 25px;
+    background-color: #333;
+    width: 100%;
+    
+}
+#Contact .Cnt_left form textarea{
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    padding-left: 25px;
+    background-color: #333;
+    height: 170px;
+    resize: none;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+#Contact .Cnt_right .Addrs{
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 16px;
+    font-weight: 600px;
+    background-color: #070707;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+#Contact .Cnt_right .Addrs i{
+    width: 60px;
+    font-size: 26px;
+    font-weight: 600px;
+    display: block;
+    padding: 6px;
+
+}
+#Contact .Cnt_right .Addrs .Txt{
+    font-size: 14px;
+}
+#Contact .Cnt_right .Addrs .Txt b{
+    font-size: 16px;
+    font-weight: 500;
+}
+#Contact .Cnt_right .Addrs .Txt a{
+    display: block;
 }
